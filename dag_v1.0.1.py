@@ -4,7 +4,7 @@ import pendulum
 
 
 my_dag = DAG(
-    "dag_v1.0.0",
+    "dag_v1.0.1",
     schedule="0 * * * *",
     start_date=pendulum.datetime(2023, 1, 1, tz="UTC"),
     catchup=False,
